@@ -28,7 +28,7 @@ sys.path.append(os.path.dirname(os.path.dirname(os.path.realpath(__file__))))
 
 os.environ["OPENAI_CONFIG"] = 'openai.cfg'
 
-bully_main = pd.read_csv(r'\assets\bully_main.csv')
+bully_main = pd.read_csv(r'assets/bully_main.csv')
 
 bullying = bully_main[bully_main['Decision']=='This is probably a bullying situation']
 
