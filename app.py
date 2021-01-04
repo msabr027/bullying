@@ -26,7 +26,7 @@ import pandas as pd
 
 sys.path.append(os.path.dirname(os.path.dirname(os.path.realpath(__file__))))
 
-os.environ["OPENAI_CONFIG"] = 'openai.cfg'
+openai.api_key = 'sk-TqcI7XD1RNyw26nGcvpSujV8uGQcJxSZes8deaau'
 
 bully_main = pd.read_csv('assets/bully_main.csv')
 
