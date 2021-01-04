@@ -23,6 +23,7 @@ from flask import Flask
 import os
 import sys
 import pandas as pd
+import openai
 
 sys.path.append(os.path.dirname(os.path.dirname(os.path.realpath(__file__))))
 
