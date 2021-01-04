@@ -1,5 +1,5 @@
 dash
-openai
+openai==0.2.0
 gunicorn
 flask
 pandas
