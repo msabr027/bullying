@@ -27,7 +27,7 @@ import openai
 
 sys.path.append(os.path.dirname(os.path.dirname(os.path.realpath(__file__))))
 
-openai.api_key = 'sk-TqcI7XD1RNyw26nGcvpSujV8uGQcJxSZes8deaau'
+openai.api_key = 'sk-hHEqIdSJ91REzUUtJC4e4bZqQWHtRTqk6VACcAC1'
 
 bully_main = pd.read_csv('assets/bully_main.csv')
 
